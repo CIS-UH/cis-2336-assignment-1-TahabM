@@ -41,8 +41,8 @@ section.owner-bio {
 }
 
 .owner-image img {
-    width: 200px;
-    border-radius: 50%;
+    width: 150px;
+    border-radius: 25%;
 }
 
 .owner-info {
