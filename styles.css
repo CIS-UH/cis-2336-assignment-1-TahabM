@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #ffcc00;
+    background-color: #200f83;
     padding: 20px;
     text-align: center;
 }
