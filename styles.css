@@ -5,14 +5,12 @@ body {
 }
 
 header {
-    background-color: #001f3f; /* Navy blue */
-    color: #fff; /* White text */
+    background-color: #001f3f;
+    color: #fff;
     padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img {
