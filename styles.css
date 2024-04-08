@@ -55,3 +55,31 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+/* Apply CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    position: relative;
+}
+
+.slideshow-container img {
+    width: 100%;
+    height: auto; 
+    position: absolute;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.slideshow-container img:not(:first-child) {
+    opacity: 0;
+}
+
