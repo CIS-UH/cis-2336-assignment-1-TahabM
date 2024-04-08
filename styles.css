@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -56,70 +57,6 @@ footer {
     padding: 10px 0;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.slideshow-container {
-    width: 100vw; 
-    height: 65vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; 
-    position: relative;
-}
-
-.slideshow-container img {
-    width: 100%;
-    height: auto; 
-    position: absolute;
-    transition: opacity 0.5s ease-in-out; 
-}
-
-.slideshow-container img:not(:first-child) {
-    opacity: 0;
-}
-
-/* Apply CSS reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #001f3f;
-    color: #fff;
-    padding: 20px;
-}
-
-.logo img {
-    width: 100px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
 .main-content {
     display: flex;
     flex-direction: column;
@@ -133,7 +70,6 @@ nav ul li a {
     position: relative;
 }
 
-/* Style individual slides */
 .slideshow-container img {
     width: 100%;
     height: auto;
@@ -152,4 +88,6 @@ nav ul li a {
 .social-media {
     text-align: center;
     padding: 20px;
-    margin-t
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
