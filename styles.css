@@ -72,7 +72,7 @@ footer {
 
 .slideshow-container img {
     width: 100%;
-    height: 125%;
+    height: auto;
     position: absolute;
     transition: opacity 0.5s ease-in-out;
 }
