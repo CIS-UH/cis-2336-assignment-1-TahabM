@@ -68,6 +68,7 @@ footer {
     height: 65vh;
     overflow: hidden;
     position: relative;
+    margin-top: 50px;
 }
 
 .slideshow-container img {
