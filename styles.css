@@ -148,9 +148,8 @@ nav ul li a {
 
 /* Style special events and special menu sections */
 .special-events,
-.special-menu {
+.special-menu,
+.social-media {
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-}
+    margin-t
