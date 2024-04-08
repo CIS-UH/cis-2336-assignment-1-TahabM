@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Sample slideshow images (replace with your actual images)
     var slideshowImages = [
         "slide1.jpg",
-        "slide2.jpg",
+        "slide2.jpeg",
         "slide3.jpg"
         // Add more images as needed
     ];
