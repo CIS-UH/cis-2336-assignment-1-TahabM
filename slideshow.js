@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function showSlide(n) {
         slides.forEach(function(slide) {
-            slide.style.opacity = 0; // Hide all slides
+            slide.style.opacity = 0;
         });
-        slides[n].style.opacity = 1; // Show the current slide
+        slides[n].style.opacity = 1;
     }
 
     function nextSlide() {
@@ -14,6 +14,5 @@ document.addEventListener("DOMContentLoaded", function() {
         showSlide(currentSlide);
     }
 
-    // Automatically advance to the next slide every 3 seconds
     setInterval(nextSlide, 3000);
 });
